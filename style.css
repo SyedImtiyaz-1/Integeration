@@ -45,39 +45,28 @@
 }
 
 .container{
-    height: 92vh;
+    height: 43vh;
     width: 100%;
-    background-color: lightblue;
     display: flex;
+    background-size: cover;
+    background-image: url('imgs/homeless-man-5520021.jpg');
+    opacity: 0.5;
 }
 
-.col1{
-    width:35%;
-}
 
-.container h1 {
+.col1 h1 {
     padding:160px 0px 0px 48px ;
     margin-bottom: 0.5vh;
+    text-align: center;
+    font-size: 50px;
 }
 
-.container h4{
+.col1 h4{
     padding:0vh 0px 0px 48px ;
     font-size: 2vh;
 }
 
-.grid{
-    width: 65%;
-    margin-left: 10vh;
-}
-.bordergrid{
-    border: 2px solid black;
-    width: 20vw;
-    height: 35vh;
-    /* padding: 20px; */
-    margin-top: 30px;
-    margin-left: 33vh;
-    display: flex;
-}
+
 
 
 
@@ -117,7 +106,10 @@
 }
 .btn button{
     height: 5vh;
+    border-radius: 10px;
     width: 5vw;
     font-size: 2vh;
     font-weight: bold;
+    color:  rgb(15, 78, 167);
+
 }
