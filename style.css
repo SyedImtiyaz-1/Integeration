@@ -33,6 +33,7 @@
     justify-content: space-around;
     font-weight: bold;
     
+    
 }
 
 .rightnav ul :hover{
@@ -42,28 +43,39 @@
 
 .rightnav ul li{
     padding: 3vh;
+    cursor: pointer;
 }
 
 .container{
     height: 43vh;
     width: 100%;
     display: flex;
-    background-size: cover;
-    background-image: url('imgs/homeless-man-5520021.jpg');
-    opacity: 0.5;
+    text-align: center;
+    justify-content: center;
 }
 
+.imgcont{
+    background-size: cover;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url(imgs/homeless-man-5520021.jpg);
+    width: 100%;
+    opacity: 1;
+}
+
+.col1{
+    position: absolute;
+}
 
 .col1 h1 {
-    padding:160px 0px 0px 48px ;
-    margin-bottom: 0.5vh;
+    padding:100px 0px 0px 0px ;
     text-align: center;
     font-size: 50px;
+    color: white;
 }
 
 .col1 h4{
-    padding:0vh 0px 0px 48px ;
+    padding:0vh 0px 0px 0px ;
     font-size: 2vh;
+    color:white;
 }
 
 
@@ -72,14 +84,14 @@
 
 .container p {
     font-size: 2.5rem;
-    padding: 0.3rem 0rem 0rem 2.8rem;
+    /* padding: 0.3rem 0rem 0rem 2.8rem; */
     font-weight: bold;
     letter-spacing: 0.1rem;
     overflow: hidden;
   }
   .container p span.typed-text {
     font-weight: normal;
-    color: #5922e5;
+    color: #ffffff;
   }
   .container p span.cursor {
     display: inline-block;
@@ -102,7 +114,7 @@
 /*btn*/
 
 .btn{
-    margin: 2vh 0vh 0vh 4.5vh;
+    margin: 2vh;
 }
 .btn button{
     height: 5vh;
@@ -111,5 +123,7 @@
     font-size: 2vh;
     font-weight: bold;
     color:  rgb(15, 78, 167);
+    cursor: pointer;
+    
 
 }
