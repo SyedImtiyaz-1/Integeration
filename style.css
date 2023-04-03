@@ -15,6 +15,7 @@
     width: 50%;
     height: 8vh;
     margin-left: 5vh;
+    
 }
 
 .leftnav a{
@@ -30,6 +31,8 @@
     display: flex;
     list-style: none;
     justify-content: space-around;
+    font-weight: bold;
+    
 }
 
 .rightnav ul :hover{
@@ -41,8 +44,80 @@
     padding: 3vh;
 }
 
-.navbtn{
-    width: 3vh;
-    color: red;
-    height: 2vh;
+.container{
+    height: 92vh;
+    width: 100%;
+    background-color: lightblue;
+    display: flex;
+}
+
+.col1{
+    width:35%;
+}
+
+.container h1 {
+    padding:160px 0px 0px 48px ;
+    margin-bottom: 0.5vh;
+}
+
+.container h4{
+    padding:0vh 0px 0px 48px ;
+    font-size: 2vh;
+}
+
+.grid{
+    width: 65%;
+    margin-left: 10vh;
+}
+.bordergrid{
+    border: 2px solid black;
+    width: 20vw;
+    height: 35vh;
+    /* padding: 20px; */
+    margin-top: 30px;
+    margin-left: 33vh;
+    display: flex;
+}
+
+
+
+.container p {
+    font-size: 2.5rem;
+    padding: 0.3rem 0rem 0rem 2.8rem;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+    overflow: hidden;
+  }
+  .container p span.typed-text {
+    font-weight: normal;
+    color: #5922e5;
+  }
+  .container p span.cursor {
+    display: inline-block;
+    background-color: #ccc;
+    margin-left: 0.1rem;
+    width: 3px;
+    animation: blink 1s infinite;
+  }
+  .container p span.cursor.typing {
+    animation: none;
+  }
+  @keyframes blink {
+    0%  { background-color: #ccc; }
+    49% { background-color: #ccc; }
+    50% { background-color: transparent; }
+    99% { background-color: transparent; }
+    100%  { background-color: #ccc; }
+  }
+
+/*btn*/
+
+.btn{
+    margin: 2vh 0vh 0vh 4.5vh;
+}
+.btn button{
+    height: 5vh;
+    width: 5vw;
+    font-size: 2vh;
+    font-weight: bold;
 }
