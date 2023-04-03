@@ -106,3 +106,46 @@
     background-position: right;
 }
 
+.allSec{
+    width: 100%;
+}
+
+.textSec{
+    margin: 1vh 20vh 1vh 20vh;
+    text-align: center;
+}
+.borderSec{
+    margin: auto;
+    display: flex;
+    /* border: 1px solid rgb(57, 45, 45); */
+    height: 40vh;
+    width: 140vh;
+}
+
+.borderCol{
+    border: 1px solid rgb(255, 255, 255);
+    height: 40vh;
+    width: 100vh;
+    margin: 0vh 2vh 0vh 2vh;
+}
+
+.borderCol h2{
+    margin-left: 1vh
+}
+
+.borderSec i{
+    font-size: 5vh;
+     padding: 1.5vh;
+}
+
+.colorBorder1{
+    background-color: rgb(250, 236, 187);
+}
+
+.colorBorder2{
+    background-color: rgb(187, 232, 250);;
+}
+
+.colorBorder3{
+    background-color: rgb(223, 187, 250);;
+}
