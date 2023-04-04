@@ -1,52 +1,52 @@
-*{
+* {
     margin: 0;
     padding: 0;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.nav{
+.nav {
     display: flex;
     width: 100%;
     height: 8vh;
 }
 
-.leftnav{
+.leftnav {
     display: flex;
     width: 50%;
     height: 8vh;
     margin-left: 5vh;
-    
+
 }
 
-.leftnav a{
+.leftnav a {
     text-decoration: none;
 }
 
-.rightnav{
+.rightnav {
     height: 8vh;
     width: 50%;
 }
 
-.rightnav ul{
+.rightnav ul {
     display: flex;
     list-style: none;
     justify-content: space-around;
     font-weight: bold;
-    
-    
+
+
 }
 
-.rightnav ul :hover{
+.rightnav ul :hover {
     text-decoration: underline rgb(48, 123, 172) 2px;
-    
+
 }
 
-.rightnav ul li{
+.rightnav ul li {
     padding: 3vh;
     cursor: pointer;
 }
 
-.container{
+.container {
     height: 43vh;
     width: 100%;
     display: flex;
@@ -56,64 +56,67 @@
 
 
 
-.imgcont{
+.imgcont {
     background-size: cover;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url(imgs/homeless-man-5520021.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)), url(imgs/homeless-man-5520021.jpg);
     width: 100%;
     opacity: 1;
 }
 
-.col1{
+.col1 {
     position: absolute;
 }
 
 .col1 h1 {
-    padding:100px 0px 0px 0px ;
+    padding: 100px 0px 0px 0px;
     text-align: center;
     font-size: 50px;
     color: white;
 }
 
-.col1 h4{
-    padding:0.3vh 0px 0px 0px ;
+.col1 h4 {
+    padding: 0.3vh 0px 0px 0px;
     font-size: 2vh;
-    color:white;
+    color: white;
 }
 
 /*btn*/
 
-.btn{
+.btn {
     margin: 2vh;
 }
-.btn button{
+
+.btn button {
     height: 5vh;
     border-radius: 8px;
     font-size: 2vh;
     font-weight: bold;
     background-color: #0c539b;
-    color:  rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
     cursor: pointer;
     width: 18%;
     border-color: blue;
     color: white;
-    box-shadow:  0 0 40px 40px rgb(35, 109, 210) inset 0 0 0 0 rgb(19, 120, 210);
+    box-shadow: 0 0 40px 40px rgb(35, 109, 210) inset 0 0 0 0 rgb(19, 120, 210);
     transition: all 150ms ease-in-out;
 }
- 
-.btn :hover{
+
+.btn :hover {
     box-shadow: 0 0 10px 0 rgb(62, 96, 210) inset, 0 0 8px 4px rgb(29, 98, 234);
     background-color: rgb(29, 29, 29);
 }
 
-.allSec{
+.allSec {
     width: 100%;
 }
 
-.textSec{
+.textSec {
     margin: 1vh 20vh 1vh 20vh;
     text-align: center;
+    text-decoration: underline;
 }
-.borderSec{
+
+.borderSec {
     margin: auto;
     display: flex;
     /* border: 1px solid rgb(57, 45, 45); */
@@ -121,62 +124,71 @@
     width: 140vh;
 }
 
-.borderCol{
+.borderSec p{
+    font-size: 20px;
+    padding: 10px;
+}
+
+.borderCol {
     border: 2px solid rgb(209, 204, 204);
     height: 40vh;
     width: 100vh;
     margin: 0vh 2vh 0vh 2vh;
 }
 
-.borderCol h2{
+.borderCol h2 {
     margin-left: 1vh
 }
 
-.borderSec i{
+.borderSec i {
     font-size: 5vh;
-     padding: 1.5vh;
+    padding: 1.5vh;
 }
 
-.colorBorder1{
+.colorBorder1 {
     background-color: rgb(250, 236, 187);
 }
 
-.colorBorder2{
-    background-color: rgb(187, 232, 250);;
+.colorBorder2 {
+    background-color: rgb(187, 232, 250);
+    ;
 }
 
-.colorBorder3{
-    background-color: rgb(223, 187, 250);;
+.colorBorder3 {
+    background-color: rgb(223, 187, 250);
+    ;
 }
 
-@media only screen and (min-width:200px) and (max-width:767px){
+@media only screen and (min-width:200px) and (max-width:767px) {
 
-    .allSec .borderSec{
-    width: 100%;
-    flex-direction: column;
-    height: 100px;
+    .allSec .borderSec {
+        width: 100%;
+        flex-direction: column;
+        height: 100px;
     }
 
-    .colorBorder1{
-        width: 90%;
-    }
-    .colorBorder2{
-        width: 90%;
-    }
-    .colorBorder3{
+    .colorBorder1 {
         width: 90%;
     }
 
-   ul li{
-    display: none;
-   }
+    .colorBorder2 {
+        width: 90%;
+    }
 
-   
+    .colorBorder3 {
+        width: 90%;
+    }
+
+    ul li {
+        display: none;
+    }
+
+
 }
 
 
 
-.midContent{
+.midContent {
     border: 2px solid rgb(209, 204, 204);
     width: 140vh;
     margin: 5vh auto;
@@ -185,15 +197,119 @@
     background-color: rgb(226, 227, 231);
 }
 
-.midContent h1{
+.midContent h1 {
     margin-bottom: 15px;
+    text-decoration: underline;
 }
 
-.midContent p{
+.midContent p {
     padding-bottom: 3vh;
 }
 
-.ulLeft{
+.ulLeft {
     text-align: left;
-    padding-left: 2vh;
+    padding-left: 2vw;
 }
+
+.footer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background-color: rgb(224, 221, 221);
+}
+
+.lfooter {
+
+    width: 80%;
+    height: 25vh;
+    padding: 10px;
+    display: flex;
+    margin: auto;
+    text-decoration: underline;
+}
+
+.lfooter h2{
+    color: rgb(43, 42, 42);
+}
+
+.lfooter2{
+    font-size: 25px;
+    margin-top: 0.5vh;
+    width: 79%;
+    justify-content: right;
+    text-align: right;
+    position: absolute;
+}
+
+.mfooter{
+    width: 40vh;
+    margin-top: 5vh;
+    position: absolute;
+    margin-left: 18vw;
+    height: 20vh;
+}
+
+.rfooter{
+
+    margin-top: 5vh;
+    position: absolute;
+    margin-left: 120vh;
+    
+    height: 20vh;
+}
+
+.rfooter ul{
+    list-style: none;
+    
+}
+
+.rfooter a{
+    text-decoration: none;
+    color: rgb(100, 99, 99);
+}
+
+.rfooter a:hover{
+    text-decoration: underline;
+    color: black;
+}
+
+.rfooter li{
+    cursor: pointer;
+    font-size: 18px;
+    padding: 5px;
+}
+
+.mfooter img{
+    width:10vh;
+}
+
+.mfooter span{
+    color: green;
+    font-weight: bold
+}
+
+.lfooter2 i{
+    color: rgb(100, 99, 99);
+}
+
+.fa-linkedin:hover{
+    color: #0072b1;
+}
+.fa-google-plus:hover{
+    color:#e4461f;
+}
+.fa-github:hover{
+    color:#252426;
+}
+/*  linkedin => style="color: #0072b1;
+    gmail => style="color: #e4461f;"
+    github => tyle="color: #252464;"*/
+
+/*end footer*/
+
+.end{
+    text-align: center;
+    background-color: rgb(224, 221, 221);
+    padding: 5px;
+}
+
