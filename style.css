@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .nav{
@@ -54,6 +54,8 @@
     justify-content: center;
 }
 
+
+
 .imgcont{
     background-size: cover;
     background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url(imgs/homeless-man-5520021.jpg);
@@ -85,25 +87,22 @@
 }
 .btn button{
     height: 5vh;
-    border-radius: 10px;
+    border-radius: 8px;
     font-size: 2vh;
     font-weight: bold;
     background-color: #0c539b;
     color:  rgb(255, 255, 255);
     cursor: pointer;
-    width: 15%;
+    width: 18%;
+    border-color: blue;
+    color: white;
+    box-shadow:  0 0 40px 40px rgb(35, 109, 210) inset 0 0 0 0 rgb(19, 120, 210);
+    transition: all 150ms ease-in-out;
 }
-
+ 
 .btn :hover{
-    margin: 2px;
-    width: 18% ;
-    background-color: white;
-    color: rgb(0, 0, 0);
-    transition: 1s;
-    background-image: url(imgs/icons8-donation-box-53.png);
-    background-size: cover 10px;
-    background-repeat: no-repeat;
-    background-position: right;
+    box-shadow: 0 0 10px 0 rgb(62, 96, 210) inset, 0 0 8px 4px rgb(29, 98, 234);
+    background-color: rgb(29, 29, 29);
 }
 
 .allSec{
@@ -148,4 +147,27 @@
 
 .colorBorder3{
     background-color: rgb(223, 187, 250);;
+}
+
+@media only screen and (min-width:200px) and (max-width:767px){
+
+    .allSec .borderSec{
+    width: 100%;
+    flex-direction: column;
+    height: 100px;
+    }
+
+    .colorBorder1{
+        width: 90%;
+    }
+    .colorBorder2{
+        width: 90%;
+    }
+    .colorBorder3{
+        width: 90%;
+    }
+
+   ul li{
+    display: none;
+   }
 }
