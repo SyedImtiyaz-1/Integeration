@@ -328,7 +328,7 @@
     .midContent{
         flex-direction: column;
         width: 85%;
-        margin-top: 100vh;
+        margin-top: 115vh;
     }
 
     .lfooter{
@@ -338,6 +338,7 @@
 
     .mfooter{    
         width: fit-content;
+        
     }
     .mfooter img{
         margin-top: 2vh;
