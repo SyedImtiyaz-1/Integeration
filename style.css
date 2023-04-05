@@ -173,6 +173,7 @@
         width: 90%;
         margin: 1vh;
         margin-left: 1.5vh;
+        
 
     }
 
@@ -188,6 +189,10 @@
         margin: 1vh;
         margin-left: 1.5vh;
 
+    }
+
+    .borderSec p{
+        font-size: 17px;
     }
 
     ul li {
