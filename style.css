@@ -111,9 +111,10 @@
 }
 
 .textSec {
-    margin: 1vh 20vh 1vh 20vh;
     text-align: center;
     text-decoration: underline;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
 }
 
 .borderSec {
@@ -162,21 +163,31 @@
 @media only screen and (min-width:200px) and (max-width:767px) {
 
     .allSec .borderSec {
-        width: 100%;
+        width: 98%;
         flex-direction: column;
         height: 100px;
+        float: right;
     }
 
     .colorBorder1 {
         width: 90%;
+        margin: 1vh;
+        margin-left: 1.5vh;
+
     }
 
     .colorBorder2 {
         width: 90%;
+        margin: 1vh;
+        margin-left: 1.5vh;
+
     }
 
     .colorBorder3 {
         width: 90%;
+        margin: 1vh;
+        margin-left: 1.5vh;
+
     }
 
     ul li {
@@ -191,7 +202,7 @@
 .midContent {
     border: 2px solid rgb(209, 204, 204);
     width: 140vh;
-    margin: 5vh auto;
+    margin: 2vh auto;
     text-align: center;
     padding: 20px;
     background-color: rgb(226, 227, 231);
@@ -313,3 +324,24 @@
     padding: 5px;
 }
 
+@media only screen and (min-width:200px) and (max-width:767px){
+    .midContent{
+        flex-direction: column;
+        width: 85%;
+        margin-top: 100vh;
+    }
+
+    .lfooter{
+        font-size: 1.3vh;
+        margin-top: 1.5vh;
+    }
+
+    .mfooter{    
+        width: fit-content;
+    }
+    .mfooter img{
+        margin-top: 2vh;
+    }
+
+
+}
