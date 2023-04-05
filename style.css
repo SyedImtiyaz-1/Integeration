@@ -193,6 +193,8 @@
 
     .borderSec p{
         font-size: 17px;
+        word-wrap: break-word;
+
     }
 
     ul li {
@@ -333,7 +335,7 @@
     .midContent{
         flex-direction: column;
         width: 85%;
-        margin-top: 115vh;
+        margin-top: 140vh;
     }
 
     .lfooter{
